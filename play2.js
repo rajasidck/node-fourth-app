@@ -15,3 +15,15 @@ for (let hobby of hobbies) {
 
     console.log(hobby)
 }
+
+// const copiedPerson = {...person};
+// console.log(copiedPerson)
+
+console.log(hobbies.map(hobby => {
+   return 'Hobby:' + hobby; 
+}));
+hobbies.push('Programming')
+console.log(hobbies)
+
+const copiedArray = [...hobbies];
+console.log(copiedArray);
